@@ -45,5 +45,5 @@ RUN curl -fsSL https://framagit.org/medoc92/recollwebui/-/archive/master/recollw
     | tar -xzf -
 
 WORKDIR /recollwebui-master
-EXPOSE 80
+EXPOSE 8080
 CMD ["/usr/bin/gunicorn", "webui-wsgi:application", "--bind", "0.0.0.0:8080"]
