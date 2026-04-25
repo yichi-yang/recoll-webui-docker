@@ -27,6 +27,7 @@ RUN apt-get update && \
         unrtf \
         python3-mutagen \
         libimage-exiftool-perl \
+        libjson-perl \
         python3-rarfile \
         python3-py7zr \
         ghostscript \
