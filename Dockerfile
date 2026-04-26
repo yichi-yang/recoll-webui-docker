@@ -34,10 +34,14 @@ RUN apt-get update && \
         untex \
         python3-lxml \
         libreoffice \
-        jupyter \
+        jupyter-nbconvert \
         gunicorn \
         aspell \
         aspell-en \
+        file \
+        xz-utils \
+        zstd \
+        bzip2 \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
