@@ -46,7 +46,7 @@ RUN apt-get update && \
     && rm -rf /var/lib/apt/lists/*
 
 # Download Recoll Web UI
-ARG UI_COMMIT=3fdc9f5ab9a2261fcd86a00a41587d69b1a831b0
+ARG UI_COMMIT=c747dcbc223b856d6a667b027d212b20c4bf19df
 RUN curl -fsSL https://framagit.org/yichi_yang/recollwebui/-/archive/${UI_COMMIT}/recollwebui-${UI_COMMIT}.tar.gz \
     | tar -xzf - \
     && mv recollwebui-${UI_COMMIT} /recollwebui
