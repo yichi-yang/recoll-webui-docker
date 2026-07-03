@@ -42,6 +42,7 @@ RUN apt-get update && \
         xz-utils \
         zstd \
         bzip2 \
+        fonts-noto-cjk \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
